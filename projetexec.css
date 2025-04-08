@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    font-size: 16px;
+    color: #000;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    padding: 20px 80px;
+    background: #24292f;
+    color: #cccccc;
+}
+
+.header_logos{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.nav a{
+    margin: 0 20px;
+    text-transform: capitalize;
+    transition: color .3s;
+}
+
+.nav a:hover, .nav a.active{
+    color: rgb(228, 92, 92);
+
+}
+
+.social a{
+    padding: 0 10px;
+    opacity: .5;
+}
+
+.social a:hover{
+    opacity: 1;
+}
